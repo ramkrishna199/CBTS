@@ -64,7 +64,7 @@ function App() {
 
       <section id="complete">
         <div >
-          <h2>Uncomplete Todos</h2>
+          <h2>Uncompleted Task</h2>
         <div className="complete-left">
           {
             todos.map((todo)=>(
@@ -75,7 +75,7 @@ function App() {
           </div>
 
           <div>
-          <h2>Complete Todos</h2>
+          <h2>Completed Task</h2>
           <div className="complete-right">
           {
             todos.map((todo)=>(
